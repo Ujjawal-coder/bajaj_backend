@@ -17,7 +17,7 @@ def bfhl_view(request):
         file_b64 = request.data.get('file_b64', None)
         
         # User ID
-        user_id = "trideep_nandi_14082003"  # Replace with dynamic data if needed
+        user_id = "ujjawal_patel_10032004"  # Replace with dynamic data if needed
         
         # Parse numbers and alphabets
         numbers = [item for item in data if item.isdigit()]
@@ -55,8 +55,8 @@ def bfhl_view(request):
         response = {
             "is_success": True,
             "user_id": user_id,
-            "email": "nandi.trideep2003@gmail.com",
-            "roll_number": "0827CS211248",
+            "email": "patelujjawal1845@gmail.com",
+            "roll_number": "0827CS211251",
             "numbers": numbers,
             "alphabets": alphabets,
             "highest_lowercase_alphabet": highest_lowercase_alphabet,
